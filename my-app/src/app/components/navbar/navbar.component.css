@@ -1,0 +1,45 @@
+/* navigation.component.css */
+
+div {
+    margin-bottom: 20px; /* Adds some space below the navigation */
+  }
+  
+  nav {
+    background-color: #333; /* Dark background color for the navigation */
+    color: #fff; /* White text color */
+    padding: 10px; /* Padding inside the navigation */
+  }
+  
+  h2 {
+    margin: 0; /* Remove default margin for h2 */
+  }
+  
+  h2 a {
+    color: #fff; /* White color for the anchor text inside h2 */
+    text-decoration: none; /* Remove underline from anchor text */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove padding from the ul */
+    display: flex; /* Use flexbox for horizontal alignment */
+  }
+  
+  ul li {
+    margin-right: 10px; /* Adds space between list items */
+  }
+  
+  ul li a {
+    color: #fff; /* White color for the anchor text */
+    text-decoration: none; /* Remove underline from anchor text */
+    padding: 5px 10px; /* Padding inside each anchor */
+  }
+  
+  ul li a:hover {
+    background-color: #555; /* Darken background on hover */
+  }
+  
+  ul li a.active {
+    font-weight: bold; /* Make active link bold */
+  }
+  

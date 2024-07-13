@@ -1,0 +1,13 @@
+<!-- <p>user-list works!</p>
+<h3>Name:{{name}}    Status:{{status}}      Salary:{{salary}}</h3>  
+ <input type="text" (change)="onChange($event)">
+<div>
+    @for(user of users;track user.name){
+        <h4>Name:={{user.name}} Status:={{user.status}} Salary:={{user.salary}}</h4>
+    }
+</div> -->
+<!-- <h3>Name:{{name}}    Status:{{isSingle?"single":"coder"}}      Salary:{{salary}}</h3>  -->
+<!-- <h1 [style.backgroundColor]="bgcolor">Name:{{name}}    Status:{{isSingle?"single":"coder"}}      Salary:{{salary}}</h1> -->
+ <h1 appHighlight>Name:{{name}} Status:{{isSingle?"single":"coder"}} Salary:{{salary}}</h1>
+
+<button (click)="sendData()">send data</button>

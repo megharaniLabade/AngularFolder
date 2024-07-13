@@ -1,0 +1,1 @@
+ng generate directive directive/highlight   --------- to create directives
